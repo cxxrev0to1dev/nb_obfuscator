@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{fbbe18f4-ab92-43b6-aff0-7b0c5c845cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{3bd7022b-c763-4630-ac06-11581d52e72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nb_obfuscator">
+      <UniqueIdentifier>{0e2d9c56-8026-4057-bcdb-8372dde00365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party">
+      <UniqueIdentifier>{3adc944a-0e25-45da-933e-d4b9fa8c4009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party\udis86">
+      <UniqueIdentifier>{50ddad77-4396-45ac-91f4-79cf57e74675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party\PSC-Engine">
+      <UniqueIdentifier>{8bc445a2-555e-4bdd-bbaa-f50c8c3ef131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party\xbyak">
+      <UniqueIdentifier>{278e6a69-6f1d-4764-b3a4-255a976c6687}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src\nb_obfuscator</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src\nb_obfuscator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\thread_safe_ptr.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\port.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\basictypes.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\scoped_ptr.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\logging.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\string_utf8.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="nb_obfuscator.h">
+      <Filter>src\nb_obfuscator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\udis86\libudis86\decode.h">
+      <Filter>src\third_party\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\udis86\libudis86\extern.h">
+      <Filter>src\third_party\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\udis86\libudis86\syn.h">
+      <Filter>src\third_party\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\udis86\libudis86\types.h">
+      <Filter>src\third_party\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\udis86\libudis86\udint.h">
+      <Filter>src\third_party\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\udis86\libudis86\itab.h">
+      <Filter>src\third_party\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="nb_dead_code.h">
+      <Filter>src\nb_obfuscator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\PSC-Engine\Engine\PolyStub.h">
+      <Filter>src\third_party\PSC-Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\xbyak\xbyak\xbyak.h">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\xbyak\xbyak\xbyak_bin2hex.h">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\xbyak\xbyak\xbyak_mnemonic.h">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\xbyak\xbyak\xbyak_util.h">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\xbyak\gen\avx_type.hpp">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src\nb_obfuscator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\logging.cc">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\string_utf8.cc">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="nb_obfuscator.cc">
+      <Filter>src\nb_obfuscator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\udis86\libudis86\decode.c">
+      <Filter>src\third_party\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\udis86\libudis86\syn.c">
+      <Filter>src\third_party\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\udis86\libudis86\syn-att.c">
+      <Filter>src\third_party\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\udis86\libudis86\syn-intel.c">
+      <Filter>src\third_party\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\udis86\libudis86\udis86.c">
+      <Filter>src\third_party\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\udis86\libudis86\itab.c">
+      <Filter>src\third_party\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="nb_dead_code.cpp">
+      <Filter>src\nb_obfuscator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\PSC-Engine\Engine\PolyStub.cpp">
+      <Filter>src\third_party\PSC-Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\xbyak\gen\b2hex.cpp">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\xbyak\gen\gen_avx512.cpp">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\xbyak\gen\gen_code.cpp">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\xbyak\gen\sortline.cpp">
+      <Filter>src\third_party\xbyak</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
